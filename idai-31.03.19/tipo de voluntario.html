@@ -1,0 +1,117 @@
+  <!DOCTYPE html>
+  <html >
+  <head>
+    <!-- Site made with Mobirise Website Builder v4.8.2, https://mobirise.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v4.8.2, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/logo-final2-1-122x86.png" type="image/x-icon">
+    <meta name="description" content="">
+    <title>Tipo de Voluntário</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/all.min.css">
+    
+    <style type="text/css">
+
+
+
+      input[type="text"]{
+        margin-bottom: 10px;
+      }
+
+      .label-check{
+        margin-left: 15px;
+      }
+
+      input[type="submit"]{
+        margin-bottom: 15px;
+      }
+
+      .registration{
+        margin-bottom:50px;
+      }
+
+      #local,#remote{
+        display: none;
+      }
+      #remote{
+       margin-top: 20px;
+       margin-bottom: 10px;
+     }
+     h4, label{
+      width: 90%;
+      margin-left: 10px;
+
+    }
+    #rem{
+      
+      width: 300px;
+    }
+    #register{
+      margin-top: 10px;
+      margin-left: 140px;
+      width: 50%;
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="brand">
+    <div class="brand-logo">
+      <img src="img/logo.png" class="logo">
+    </div>
+  </div>
+  <div class="assets">
+
+    <h3 class="text-center"><strong class="upper" >Tipo de Voluntário</strong></h3>
+  </div>
+
+
+  <div class="form-box-user" id="form_box">
+    <form>
+      <label ><h4 class="btn btn-block corbg" onclick="local()">Local</h4></label>
+      <div id="local" >
+        <div class="row">
+         <div class="col-md-6">
+          <label class="label-check"> <input type="checkbox" name="access"><i class="fa fa-universal-access"></i> Acesso</label><br>
+          <label class="label-check"><input type="checkbox" name="transport"><i class="fa fa-truck"></i> Transporte</label><br>
+          <label class="label-check"><input type="checkbox" name="storage"><i class="fa fa-warehouse"></i> Armazém</label><br>
+          <label class="label-check"><input type="checkbox" name="labour"><i class="fa fa-user-md"></i>  Mão-de-obra</label><br>
+        </div>
+        <div class="col-md-6">
+          <label class="label-check"><input type="checkbox" name="translation"><i class="fa fa-language"></i> Tradução</label><br>
+          <label class="label-check"><input type="checkbox" name="accomodation"> <i class="fa fa-bed"></i> Alojamento</label><br>
+          <label class="label-check"><input type="checkbox" name="Changing_Points"><i class="fa fa-map-marked"></i> Mudança de Ponto</label><br>
+          <label class="label-check"><input type="checkbox" name="Water_Food"><i class="fa fa-hamburger"></i> Água + comida</label><br>
+        </div>
+      </div>
+    </div>
+
+
+    <label><h4 class="btn  btn-block corbg" onclick="remote()"> Remoto</h4></label><br>
+    <div id="remote">
+      <div id="rem">
+        <label class="label-check"> <input type="checkbox" name="sTransporte"><i class="fa fa-truck"></i> Transporte</label><br>
+        <label class="label-check"><input type="checkbox" name="Labour"><i class="fa fa-user-md"></i> Mão-de-obra</label><br>
+        <label class="label-check"><input type="checkbox" name="Donation"><i class="fa fa-suitcase"></i> Doações</label><br>
+      </div>
+    </div>      
+    <input id="register" type="submit" name="submit" value="Registar" class="btn corbg">
+
+  </form>
+</div>
+<div class="footer">
+  <footer>
+    <p class="text-center">All copyright&copy; are reserved to <b>IDAI</b> TEAM</p>
+  </footer>
+</div>
+</body>
+</html>

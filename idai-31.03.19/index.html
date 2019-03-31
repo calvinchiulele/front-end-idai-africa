@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.8.2, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.8.2, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo-final2-1-122x86.png" type="image/x-icon">
+  <meta name="description" content="">
+  <title>Registration user</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/all.min.css">
+  
+  <style type="text/css">
+
+      
+      .form-box{
+
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+     
+      }
+      .box{
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 100px;
+
+        background-color: #fbb042;
+        padding: 5px;
+      }
+
+      textarea,input[type="text"], input[type="button"],select,input[type="password"],#_provincias,#_cidades{
+        width: 100%;
+      }
+      
+      input[type="text"], select{
+        margin-bottom: 10px;
+      }
+
+      .label-check{
+        margin-left: 15px;
+      }
+      h1 small{
+        font-size: 18pt;
+      }
+
+      input[type="submit"]{
+        margin-bottom: 15px;
+      }
+
+      .registration{
+        margin-bottom:50px;
+      }
+      datalist, input{
+        padding: 5px;
+      }
+      footer{
+          margin-top: 100px;
+      }
+
+  </style>
+  
+  
+</head>
+<body>
+     <div class="brand">
+      <div class="brand-logo">
+        <img src="img/logo.png" class="logo">
+      </div>
+    </div>
+
+<div class="box">
+    <div class="form-box">
+        <form>
+            <h1 class="text-center registration"><b>Voluntário</b> <small>Registo</small></h1>
+            
+            <input type="text" name="nome" required placeholder="Nome completo"><br>
+            
+            <input type="text" name="celular" required placeholder="telefone"><br>
+            
+            <datalist id="prov" onmousedown="if(this.options.length>5){this.size=5;}"  onchange='this.size=0;' onblur="this.size=0;">
+              <option value="Maputo">
+              <option value="Gaza">
+              <option value="Inhambane">
+              <option value="Manica">
+              <option value="Sofala">
+              <option value="Zambezia">
+              <option value="Tete">
+              <option value="Nampula">
+              <option value="Cabo Delgado">
+              <option value="Niassa">
+           </datalist>
+            <input type="text" name="" placeholder="Selecione a provincia" list="prov">
+    
+              <datalist id="cidade"> 
+              <option value="Matola">
+              <option value="Maputo">
+              <option value="Xai-xai">
+              <option value="Chibuto">
+              <option value="Chokwé">
+              <option value="Inhambane">
+              <option value="Maxixe">
+              <option value="Manica">
+              <option value="Chimoio">
+              <option value="Beira">
+              <option value="Dondo">
+              <option value="Zambezia">
+              <option value="Quelimane">
+              <option value="Mocuba">
+              <option value="Gurué">
+              <option value="Tete">
+              <option value="Nampula">
+              <option value="Nacala">
+              <option value="Ilha de Moçambique">
+              <option value="Pemba">
+              <option value="Montepuez">
+              <option value="Lichinga">
+              <option value="Cuamba">
+          </datalist>
+
+           <input type="text" name="" placeholder="Selecione a cidade" list="cidade"> 
+          
+            <input type="password" name="password" required placeholder="Introduza o password"><br><br>
+            <input type="submit" name="next" value="Próximo" class="btn btn-block ">
+
+        </form>
+    </div>
+</div>
+<div class="footer">
+  <footer>
+    <p class="text-center">All copyright&copy; are reserved to <b>IDAI</b> TEAM</p>
+  </footer>
+</body>
+</html>
